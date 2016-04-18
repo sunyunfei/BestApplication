@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ShowBigCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="400"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="400"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Qgx-9X-kSA">
+                        <rect key="frame" x="0.0" y="51" width="320" height="180"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Qgx-9X-kSA" secondAttribute="height" multiplier="2:1" id="4HB-0h-w65"/>
+                            <constraint firstAttribute="width" secondItem="Qgx-9X-kSA" secondAttribute="height" multiplier="16:9" id="fPi-er-Ssb"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="4HB-0h-w65"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="足球迷的自我修养" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2S-ax-ECe" userLabel="name">
+                        <rect key="frame" x="15" y="15" width="128" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="8A5-3A-rQf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="球迷必备系列" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phZ-OI-5D4">
+                        <rect key="frame" x="153" y="18" width="72" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小美" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c94-p7-cYu">
+                        <rect key="frame" x="275" y="364" width="30" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="1nx-f4-1pi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RcM-fw-8vt">
+                        <rect key="frame" x="15" y="246" width="290" height="108"/>
+                        <mutableString key="text">我以为和你的缘分只有那一次像优美散文一样的偶遇，怎料在接下来的几场秋雨中，我都能幸运地见到你，而你每一次都是面带笑容地淋着雨走过。于是，我渐渐期待下雨天，期待遇见你，期待看到你的身影和笑容，期待你会注意到每次和你不期而遇的我。每次和你擦肩而过的时候我都希望你能回头看我一眼，但是你的视线里从来没有我。
+ 
+　　我以为接下来的每一场雨里都是我们见面的时刻，可是当冬天的第一场雪飘下之后，我就再也没有见过你了。直至来年春天的绵绵细雨，夏天的狂风骤雨，你也未曾露面，似乎就在最后一场秋雨中消失了。也许你只会在秋天下雨的时候才会路过那条街，才会笑得开怀，但是我和你只有一秋的缘分，接下来的秋天我只能在离你数百公里外的城市想念你。</mutableString>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="c94-p7-cYu" firstAttribute="top" relation="greaterThanOrEqual" secondItem="RcM-fw-8vt" secondAttribute="bottom" constant="10" id="LlY-EN-v5N"/>
+                <constraint firstAttribute="bottom" secondItem="c94-p7-cYu" secondAttribute="bottom" constant="15" id="SVs-fZ-L2l"/>
+                <constraint firstItem="RcM-fw-8vt" firstAttribute="top" secondItem="Qgx-9X-kSA" secondAttribute="bottom" constant="15" id="W4T-cg-QGE"/>
+                <constraint firstItem="a2S-ax-ECe" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="W4d-0D-FQq"/>
+                <constraint firstItem="phZ-OI-5D4" firstAttribute="centerY" secondItem="a2S-ax-ECe" secondAttribute="centerY" id="am4-ZQ-K5K"/>
+                <constraint firstItem="Qgx-9X-kSA" firstAttribute="top" secondItem="a2S-ax-ECe" secondAttribute="bottom" constant="15" id="dGA-bc-ble"/>
+                <constraint firstItem="a2S-ax-ECe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="eaf-SR-tea"/>
+                <constraint firstAttribute="trailing" secondItem="RcM-fw-8vt" secondAttribute="trailing" constant="15" id="gQ0-Fd-cdd"/>
+                <constraint firstAttribute="trailing" secondItem="Qgx-9X-kSA" secondAttribute="trailing" id="qSH-Tf-EzH"/>
+                <constraint firstAttribute="trailing" secondItem="c94-p7-cYu" secondAttribute="trailing" constant="15" id="riC-nv-BYL"/>
+                <constraint firstItem="RcM-fw-8vt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="s3b-Qf-W9c"/>
+                <constraint firstItem="phZ-OI-5D4" firstAttribute="leading" secondItem="a2S-ax-ECe" secondAttribute="trailing" constant="10" id="vTi-Bh-noU"/>
+                <constraint firstItem="Qgx-9X-kSA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="xjB-V3-ZeZ"/>
+            </constraints>
+            <size key="customSize" width="352" height="460"/>
+            <point key="canvasLocation" x="301" y="347"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon.jpg" width="698" height="628"/>
+    </resources>
+</document>
